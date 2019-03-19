@@ -18,5 +18,26 @@ Then add the package.
 ~/my-app$ npm install @jetblack/mui-svg-shapes
 ```
 
+Change the `src/App.js` to have the following content:
 
+```js
+import React, { Component } from 'react'
+import { withStyles } from '@material-ui/core/styles'
+import Svg from '@jetblack/mui-svg-shapes'
+import Circle from '@jetblack/mui-svg-shapes'
 
+const styles = theme => ({
+})
+
+class App extends Component {
+  render() {
+    return (
+      <Svg width={800} height={800}>
+        <Circle cx={50} cy={50} r={50} />
+      </Svg>
+    )
+  }
+}
+
+export default withStyles(styles)(App)
+```
