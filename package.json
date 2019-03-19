@@ -1,7 +1,7 @@
 {
   "name": "@jetblack/mui-svg-shapes",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SVG shapes for React Material-UI",
   "keywords": [
     "react",
