@@ -1,0 +1,36 @@
+{
+  "name": "@jetblack/mui-svg-shapes",
+  "private": false,
+  "version": "1.0.0",
+  "description": "SVG shapes for React Material-UI",
+  "keywords": [
+    "react",
+    "svg",
+    "material-ui"
+  ],
+  "main": "lib/index.js",
+  "repository": "git@github.com:rob-blackbourn/jetblack-mui-svg-shapes.git",
+  "homepage": "https://github.com/rob-blackbourn/jetblack-mui-svg-shapes",
+  "author": "Rob Blackbourn <rob.blackbourn@gmail.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "neutrino build",
+    "start": "neutrino start",
+    "lint": "neutrino lint",
+    "test": "neutrino test"
+  },
+  "devDependencies": {
+    "@neutrinojs/jest": "^8.3.0",
+    "@neutrinojs/react-components": "^8.3.0",
+    "@neutrinojs/standardjs": "^8.3.0",
+    "neutrino": "^8.3.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-uid": "^2.2.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "clsx": "^1.0.3"
+  }
+}

@@ -1,2 +1,3 @@
-# mui-svg-shapes
+# @jetblack/mui-svg-shapes
+
 An SVG shape library for material ui react
